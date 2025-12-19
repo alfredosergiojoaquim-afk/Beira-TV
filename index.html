@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Beira TV - Ao Vivo</title>
+
+  <!-- Video.js -->
+  <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>📺 Beira TV</h1>
+    <p>Canal Online Ao Vivo</p>
+  </header>
+
+  <main>
+    <video
+      id="beiratv"
+      class="video-js vjs-big-play-centered"
+      controls
+      autoplay
+      width="100%"
+      height="auto"
+      data-setup='{}'>
+      <source src="COLOQUE_AQUI_SEU_LINK_M3U8" type="application/x-mpegURL">
+    </video>
+  </main>
+
+  <footer>
+    <p>© 2025 Beira TV</p>
+  </footer>
+
+  <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+</body>
+</html>
