@@ -2,38 +2,105 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Beira TV</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beira TV - A Melhor TV Online de Moçambique</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #1c1c1c, #000000);
+      color: #ffffff;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #ff0000;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    video {
+      border-radius: 12px;
+      box-shadow: 0 0 20px #ff0000;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    .banner {
+      text-align: center;
+      margin: 20px;
+      padding: 10px;
+      background-color: #1a1a1a;
+      border-radius: 8px;
+    }
+
+    .banner p {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffff00;
+      text-shadow: 2px 2px #ff0000;
+      margin-bottom: 10px;
+    }
+
+    .banner a {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      background: linear-gradient(to right, #ff0000, #ff7f00);
+      border-radius: 10px;
+      text-decoration: none;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1a1a1a;
+      color: #aaaaaa;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-  <h1>📺 Beira TV</h1>
-  <p>A televisão online da Beira</p>
-</header>
+  <header>
+    Beira TV - A Melhor TV Online de Moçambique
+  </header>
 
-<main>
-<video width="100%" controls autoplay>
-  <source src="meu_video.mp4" type="video/mp4">
-  Seu navegador não suporta vídeo.
-</video>
-<div style="text-align:center; margin-top:20px; padding:10px; background-color:#f8f8f8; border-radius:8px;">
-  <p style="font-size:18px; font-weight:bold; color:#ff0000; margin-bottom:10px;">
-    NOS SOMOS A MELHOR CASA DE APOSTA EM MOÇAMBIQUE
-  </p>
-  <a href="https://tracking.888africa.com/visit/?bta=657&brand=888mozambique" target="_blank"
-     style="display:inline-block; padding:12px 24px; font-size:16px; font-weight:bold; color:#ffffff;
-            background-color:#ff0000; border-radius:6px; text-decoration:none;">
-    CLIQUE AQUI PARA APOSTAR
-  </a>
-</div>
+  <main>
+    <video controls autoplay>
+      <source src="meu_video.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
 
-  </video>
-</main>
+    <div class="banner">
+      <p>NOS SOMOS A MELHOR CASA DE APOSTA EM MOÇAMBIQUE</p>
+      <a href="https://tracking.888africa.com/visit/?bta=657&brand=888mozambique" target="_blank">
+        CLIQUE AQUI PARA APOSTAR
+      </a>
+    </div>
+  </main>
 
-<footer>
-  <p>© 2025 Beira TV</p>
-</footer>
+  <footer>
+    &copy; 2025 Beira TV - Todos os direitos reservados
+  </footer>
 
 </body>
 </html>
