@@ -1,0 +1,12 @@
+{
+  "name": "beira-tv",
+  "version": "1.0.0",
+  "description": "Site oficial Beira TV",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
